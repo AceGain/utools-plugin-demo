@@ -1,0 +1,22 @@
+{
+  "name": "AceGain",
+  "pluginName": "utools-plugin-demo",
+  "description": "utools插件开发模板",
+  "author": "https://github.com/AceGain",
+  "homepage": "https://github.com/AceGain/utools-plugin-demo",
+  "version": "0.0.1",
+  "logo": "logo.png",
+  "main": "index.html",
+  "preload": "preload.js",
+  "development": {
+    "main": "http://127.0.0.1:7990",
+    "preload": "preload.js"
+  },
+  "features": [
+    {
+      "code": "demo",
+      "explain": "demo",
+      "cmds": ["demo"]
+    }
+  ]
+}
