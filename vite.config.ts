@@ -13,6 +13,7 @@ import {ElementPlusResolver} from 'unplugin-vue-components/resolvers'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    base: './',
     // 此处与Plugin.json中配置保持一致
     server: {
         host: '127.0.0.1',
